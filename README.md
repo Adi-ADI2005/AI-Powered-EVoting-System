@@ -18,16 +18,15 @@ types of users:
 
 ## 🏠 Home Page
 
-**(Add screenshot: `home.png`)**
+**![Home Page](home.png)
+**
 
 AI powered e-voting home interface.
 
 ------------------------------------------------------------------------
 
 ## 📝 Signup Page
-
-**(Add screenshot: `signup.png`)**
-
+![signup.png](signup.png)
 SQL used for user registration:
 
 ``` sql
@@ -45,7 +44,7 @@ CREATE TABLE users (
 
 ## 🔐 Signin Page
 
-**(Add screenshot: `signin.png`)**
+**![signin.png](signup.in)**
 
 ✅ Username Rules\
 - Voter: **Alphanumeric**\
@@ -58,14 +57,14 @@ CREATE TABLE users (
 
 ### Candidate Home
 
-**(Add screenshot: `candidate_home.png`)**
 
+![chome.png](chome.png)
 Candidate can see how many votes he/she received.
 
 ### Candidate Nomination
 
 **(Add screenshot: `candidate_reg.png`)**
-
+![creg.png](creg.png)
 SQL for candidate nomination:
 
 ``` sql
@@ -90,26 +89,25 @@ CREATE TABLE candidate_reg (
 
 ### Voter Home
 
-**(Add screenshot: `voter_home.png`)**
 
+![uhomeb.png](uhomeb.png)
 Voter must upload a photo to enable the **Vote Cast** button.
 
 ### Upload Photo
 
-**(Add screenshot: `upload_photo.png`)**
 
+![upload.png](upload.png)
 After photo upload, the button becomes enabled.
 
 ### Ready to Vote
-
-**(Add screenshot: `upload_done.png`)**
+![uhomea.png](uhomea.png)
 
 ------------------------------------------------------------------------
 
 ## 📸 Face Verification (OpenCV)
 
 **(Add screenshot: `face_verification.png`)**
-
+![faceverifiction.png](faceverifiction.png)
 Face scan matches the user's photo stored in the database.\
 If matched → **Next button appears**
 
@@ -117,7 +115,7 @@ If matched → **Next button appears**
 
 ## ✅ Vote Cast Page
 
-**(Add screenshot: `vote_cast.png`)**
+![vote_cast.png](vote_cast.png)
 
 SQL for storing votes:
 
@@ -137,18 +135,18 @@ CREATE TABLE vote_cast (
 ## 🛠️ Admin Dashboard
 
 **(Add screenshot: `admin_dashboard.png`)**
-
+![admindashboard.png](admindashboard.png)
 Admin can: - Update user details\
 - Delete nomination\
 - View results
 
 ### Update Page
 
-**(Add screenshot: `admin_update.png`)**
 
+![update.png](update.png)
 ### Results Page
 
-**(Add screenshot: `result.png`)**\
+![result.png](result.png)
 See which candidate won and total votes.
 
 ------------------------------------------------------------------------
@@ -174,8 +172,4 @@ pip install -r requirements.txt
 python app.py
 ```
 
-------------------------------------------------------------------------
 
-## ✅ Add License (optional)
-
-MIT License / Apache License / or your own.

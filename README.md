@@ -151,14 +151,15 @@ See which candidate won and total votes.
 ------------------------------------------------------------------------
 ## 📁 Project Folder Structure — AI Powered E-Voting System
 
+```text
 e-voting-system/
 │
 ├── app.py                         # Main Flask application
 │
 ├── templates/                     # All HTML templates
-│   ├── home.html
-│   ├── signup.html
-│   ├── signin.html
+│   ├── home.html                  # Home page
+│   ├── signup.html                # Signup page
+│   ├── signin.html                # Signin page
 │   ├── u_home.html                # Voter home
 │   ├── upload.html                # Voter photo upload
 │   ├── faceverification.html      # OpenCV face scan page
@@ -173,26 +174,29 @@ e-voting-system/
 │   ├── css/                       # Stylesheets
 │   │   ├── style.css
 │   │   └── ...
+│   │
 │   ├── js/                        # JavaScript files
 │   │   ├── script.js
 │   │   └── ...
+│   │
 │   ├── assets/                    # Background images / icons
 │   │   ├── bg1.jpg
 │   │   ├── bg2.png
 │   │   └── ...
 │   │
-│   └── upload/                    # ✅ Upload folder inside static
-│       ├── party_logo/            # Candidate party logo uploads
+│   └── upload/                    # Uploaded files
+│       ├── party_logo/            # Candidate party logos
 │       │   ├── logo1.png
 │       │   └── ...
+│       │
 │       └── face_upload/           # Voter face upload images
 │           ├── 10001.jpg
 │           └── ...
 │
 ├── requirements.txt               # Python dependencies
-├── README.md                      # Documentation
+├── README.md                      # Project documentation
 └── .gitignore                     # Git ignored files
-## 📂 Folder Structure
+```
 
 The entire project is organized as follows:
 

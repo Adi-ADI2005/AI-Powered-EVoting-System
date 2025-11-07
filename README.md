@@ -96,7 +96,7 @@ Voter must upload a photo to enable the **Vote Cast** button.
 ### Upload Photo
 
 
-![upload.png](upload.png)
+![img upload.png](imgupload.png)
 After photo upload, the button becomes enabled.
 
 ### Ready to Vote
@@ -135,7 +135,7 @@ CREATE TABLE vote_cast (
 ## 🛠️ Admin Dashboard
 
 **(Add screenshot: `admin_dashboard.png`)**
-![admindashboard.png](admindashbordś.png)
+![admindashboard.png](admindashbord.png)
 Admin can: - Update user details\
 - Delete nomination\
 - View results

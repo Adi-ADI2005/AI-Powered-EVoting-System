@@ -63,7 +63,7 @@ Candidate can see how many votes he/she received.
 
 ### Candidate Nomination
 
-**(Add screenshot: `candidate_reg.png`)**
+
 ![creg.png](/docs/creg.png)
 SQL for candidate nomination:
 

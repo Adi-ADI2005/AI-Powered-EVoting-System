@@ -145,7 +145,7 @@ Admin can: - Update user details\
 ![update.png](/docs/update.png)
 ### Results Page
 
-![result.png](result.png)
+![result.png](/docs/result.png)
 See which candidate won and total votes.
 ------------------------------------------------------------------------
 ## 📁 Project Folder Structure — AI Powered E-Voting System
